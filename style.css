@@ -85,8 +85,8 @@ nav{
 }
 
 .play{
-    padding: 12px 30px;
-    background-color: #bf2e46;
+    padding: 12px 32px;
+    background: linear-gradient(to right, #b81855, #c7621a);
     color: #d4bcc6;
     display: flex;
     align-items: center;
@@ -111,7 +111,7 @@ nav{
 }
 
 .watch{
-    padding: 12px 30px;
+    padding: 12px 32px;
     color: #d4bcc6;
     border: 2.5px solid #691f40;
     display: flex;
