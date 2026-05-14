@@ -6,6 +6,7 @@
     <title>Squid Game</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -21,24 +22,32 @@
         </nav>
 
         <div class="heroleft">
-            <img src="./logo.png">
-            <img src="./star.png">
-            <p>Action / Thriller / Drama Series directed by Dong-hyuk Hwang<br>Season 1: 9 Episodes</p>
+            <div class="bg">
+               <img id="bigLogo" src="./logo.png">
+               <img id="star" src="./star.png">
+               <img id="star2" src="./star.png">
+            </div>
+            <p id="hlP">Action / Thriller / Drama Series directed by Dong-hyuk Hwang<br>Season 1: 9 Episodes</p>
             <div class="view">
-                <div class="play">Play Now</div>
-                <div class="watch">Watch Trailer</div>
+                <div class="play">
+                    <div class="circle">
+                        <i class="ri-arrow-drop-right-fill"></i>
+                    </div>
+                    <P>Play Now</P>
+                </div>
+
+            <div class="watch">
+                 <p><i class="ri-arrow-drop-right-fill"></i>Watch Trailer</p>
             </div>
         </div>
 
         <div class="heroright">
-            <img src="./charactor.png">
+            <img id="character" src="./charactor.png">
         </div>
 
         <div class="series">
-            <div class="s1">
-                <img src="./box1.jpg">
-                
-            </div>
+                <img id="s1" src="./box1.jpg">
+               
         </div>
 
 
