@@ -126,7 +126,7 @@ nav{
 
 .heroright{
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: 730px;
     z-index: 1;
 }
@@ -148,7 +148,7 @@ nav{
     justify-content: center;
     gap: 40px;
     border-radius: 25px;
-    margin-bottom: 25px;
+    margin-top: 150px;
 }
 
 #ep{
@@ -202,3 +202,40 @@ nav{
     opacity: 60%;
 }
 
+.sl{
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+position: absolute;
+align-self: center;
+justify-self: center;
+top: 210px;
+}
+
+.sl p{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 12px;
+    color: #d4bcc6;
+}
+
+.line{
+    width: 2.5px;
+    height: 50px;
+    background-color: #782c47;
+}
+
+.sm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 135px;
+    top: 232px;
+}
+
+.sm img{
+    height: 28px;
+}
